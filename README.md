@@ -26,6 +26,13 @@ gcc -Wall -Wextra -Werror -D BUFFER_SIZE=32 main.c get_next_line.c get_next_line
 - `tests/`: Directory containing multiple text files for testing purposes.
 
 ## Bonus
+The bonus part of the project includes additional features to enhance the functionality of the `get_next_line` function. These features include handling multiple file descriptors more efficiently and other optimizations.
+
 - `get_next_line_bonus.c`: Contains the implementation of the `get_next_line` function with bonus features.
 - `get_next_line_utils_bonus.c`: Contains utility functions used by `get_next_line_bonus`.
 - `get_next_line_bonus.h`: Header file with function prototypes and necessary includes for the bonus implementation.
+
+## Resources
+- [C Programming Language](https://en.wikipedia.org/wiki/C_(programming_language))
+- [File Descriptors](https://en.wikipedia.org/wiki/File_descriptor)
+- [Memory Management in C](https://en.wikipedia.org/wiki/C_dynamic_memory_allocation)
